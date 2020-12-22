@@ -1,0 +1,60 @@
+.article-section__h3 {
+    line-height: 29px;
+    font-weight: bold;
+    text-align: center;
+    color: #555555;
+}
+
+.sneakers-icon {
+    background: url("img/sneakers-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.backpack-icon {
+    background: url("img/backpack-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 53px;
+    height: 55px;
+    display: block;
+}
+
+.soda-icon {
+    background: url("img/soda-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+
+.man-falling-off-a-precipice-icon {
+    background: url("img/man-falling-off-a-precipice-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 51px;
+    height: 54px;
+    display: block;
+}
+
+.article-container__media {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.article-container__media-img {
+    min-width: 53px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.article-container__media-icon {
+    max-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .article-section-theSameType__list2-item:before {
+        left: -20px !important;
+    }
+}
